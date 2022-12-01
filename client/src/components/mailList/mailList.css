@@ -1,0 +1,37 @@
+.mailList{
+    width: 100%;
+    /* max-width: 1024px; */
+    background-color: hsl(212, 92%, 39%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 20px;
+    justify-content: flex-start;
+    color: #fff;
+}
+.mailLstIntro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.mailListInput input{
+    padding: 10px 5px;
+    width: 250px;
+    outline: none;
+    border-radius: 5px;
+}
+.mailListInput button{
+    padding: 10px 5px;
+    border: none;
+    background-color: hwb(230deg 3% 25% / 99%);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.mailListCheckox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

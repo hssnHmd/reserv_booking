@@ -1,0 +1,125 @@
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #003380;
+    color: #fff;
+    position: relative;
+}
+
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0 100px 0;
+}
+.headerContainer.listmode {
+    margin: 20px  0px;
+    
+}
+.headerList{
+    display: flex;
+    gap: 40px;
+
+}
+.headerListItems{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.headerListItems.active{
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 10px;
+}
+.headerTitle{
+    font-weight: 600;
+    margin: 20px 0;
+}
+.headerDesc{
+    font-weight: 400;
+    margin-bottom: 16px;
+    letter-spacing: 2px;
+}
+.headerBtn{
+    padding: 10px;
+    background-color: #0071c2;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+}
+.headerSearch{ 
+    height: 40px;
+    background-color:#fff ;
+    color: #003380; 
+    border: 2px solid #febb02;
+    padding:10px 0;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 1024px;
+    position: absolute;
+    bottom: -25px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.searchItem{
+    display: flex;
+    gap: 10px;
+}
+.searchInput{
+    border: none;
+    outline: none;
+}
+.searchText{
+    color: lightgray;
+    cursor: pointer;
+}
+.searchItemBtn{
+    padding: 5px;
+    background-color: #003380;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.dateRange{
+    position: absolute;
+    top: 40px;
+    z-index: 2;
+}
+.options{
+    padding: 15px;
+    border-radius: 5px;
+    color: gray;
+    background-color: #fff;
+    position: absolute;
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0,0.4);
+    top: 40px;
+    z-index: 2;
+}
+.optionsItem{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 10px;
+}
+.optionCounter{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.counterBtn{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #0071c2;
+    color: #0071c2; 
+    cursor: pointer;
+}
+.counterBtn:disabled{
+    cursor: not-allowed;
+}
+
+
